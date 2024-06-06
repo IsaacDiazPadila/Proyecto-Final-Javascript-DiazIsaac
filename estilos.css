@@ -19,12 +19,23 @@ header .navbar {
     z-index: 1;
 }
 
-.intro {
-    height: 200px;
-    background-image: url(./img/skiline\ gtr.jpg.jpg);
-    background-size: cover;
-    background-position: center;
+/* Secsion de logos inicia*/
+.panel{
+    display: flex;
+    padding: 1rem;
 }
+
+.container{
+    text-align: center;
+}
+
+.container img{
+    max-width: 100%;
+    height: 100px;
+    padding-left: 20px;
+}
+
+/* secsion de logo finaliza */
 
 h1 {
     font-family: "Bungee Spice", sans-serif;
@@ -42,28 +53,27 @@ a {
 .box {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(101, 101, 101);
 }
 
 aside {
-    padding: 3rem;
+    padding: 1rem; 
+    margin-top: 5rem;
+    margin-right: 1rem;
     position: sticky;
-    top: 0;
+    top: 0; 
     height: 100vh;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;*/
 }
 
 .boton {
     background-color: transparent;
-    border: 0;
-    /*color: aliceblue;*/
-    font-size: 1rem;
+    /* border: 0; */
+    font-size: 1rem; 
     cursor: pointer;
     gap: 1rem;
     text-align: center;
+
 }
 
 .boton-a {
@@ -73,10 +83,11 @@ aside {
     padding: 1rem;
     padding-top: 2rem;
     border-radius: 1rem;
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(86, 86, 86);
     width: 100%;
     border: 1px solid black;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .boton-a:hover {
@@ -85,30 +96,37 @@ aside {
 }
 
 main {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(188, 188, 188);
     margin: 1rem;
     margin-left: 0;
     border-radius: 1rem;
-    padding: 2rem;
 }
 
 .titulo {
     font-family: "Bungee Spice", sans-serif;
     margin-bottom: 1rem;
+    padding: 20px;
+    text-align: center;
 }
 
 .contenedor {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    padding: 1rem;
 }
 
-.accesorio-imagen {
+/* cards  */
+
+
+/* cards con css */
+
+/* .accesorio-imagen {
     max-width: 100%;
     border-radius: 1rem;
-}
+} */
 
-.info {
+/* .info {
     background-color: black;
     color: aliceblue;
     border-radius: 1rem;
@@ -116,9 +134,9 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-}
+} */
 
-.agregar {
+/* .agregar {
     border: 0;
     background-color: aliceblue;
     padding: .5rem;
@@ -130,8 +148,8 @@ main {
 
 .agregar:hover {
     background-color: rgb(0, 0, 0);
-    color: aliceblue;
-}
+    color: aliceblue; */
+
 
 footer{
     background-color: rgb(0, 0, 0);
@@ -139,11 +157,3 @@ footer{
     text-align: center;
 }
 
-/*Inicia link todoterreno*/
-
-.camionetas {
-    height: 220px;
-    background-image: url(./img/Toyota\ 1.j[g.webp);
-    background-size: cover;
-    background-position: center;
-}
