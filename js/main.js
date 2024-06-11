@@ -4,7 +4,7 @@
 const productos = [
     {
         id: "moto-0km-01",
-        titulo: "Moto-0km-Bajaj",
+        titulo: "Bajaj rouser ns 125",
         imagen: "./img/rouser ns 125 negra.jpg.jpg",
         categoria: {
             nombre: "0Km",
@@ -15,7 +15,7 @@ const productos = [
 
     {
         id: "moto-usada-01",
-        titulo: "Moto-Usada-Suzuki",
+        titulo: "Suzuki gn 125",
         imagen: "./img/suzuki-gn-125.jpf.jpg",
         categoria: {
             nombre: "Usados",
@@ -26,7 +26,7 @@ const productos = [
 
     {
         id: "moto-0km-02",
-        titulo: "Moto-0km-Boxer",
+        titulo: "Bajaj Boxer 150 BM",
         imagen: "./img/boxer-150.jpg.jpg",
         categoria: {
             nombre: "0Km",
@@ -37,7 +37,7 @@ const productos = [
 
     {
         id: "moto-0km-04",
-        titulo: "Moto-0km-Hero",
+        titulo: "Hero xpulse 200",
         imagen: "./img/Hero-XPulse-200.jpg.webp",
         categoria: {
             nombre: "0Km",
@@ -48,7 +48,7 @@ const productos = [
 
     {
         id: "moto-0km-05",
-        titulo: "Moto-0km-Vogue",
+        titulo: "Vogue 300 DS",
         imagen: "./img/vogue-300-ds.jpg.jpg",
         categoria: {
             nombre: "0Km",
@@ -60,7 +60,7 @@ const productos = [
 
     {
         id: "moto-0km-06",
-        titulo: "Moto-0km-Vogue-Rally",
+        titulo: "Vogue Rally",
         imagen: "./img/Vogue-Rally-AZUL.jpg.jpg",
         categoria: {
             nombre: "0Km",
@@ -71,7 +71,7 @@ const productos = [
 
     {
         id: "moto-usada-02",
-        titulo: "Moto-Usada-Himalayan",
+        titulo: "Royale Himalayan",
         imagen: "./img/HIMALAYAN.jpg.jpg",
         categoria: {
             nombre: "Usados",
@@ -82,7 +82,7 @@ const productos = [
 
     {
         id: "moto-usada-03",
-        titulo: "Moto-Usada-Interceptor",
+        titulo: "Royale Interceptor",
         imagen: "./img/Interceptor.jpg.jpg",
         categoria: {
             nombre: "Usados",
