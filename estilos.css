@@ -116,27 +116,18 @@ main {
     padding: 1rem;
 }
 
-/* cards  */
-
-
-/* cards con css */
-
-/* .accesorio-imagen {
+.producto-imagen {
     max-width: 100%;
     border-radius: 1rem;
-} */
+}
 
-/* .info {
-    background-color: black;
+.producto-detalles {
+    background-color: rgb(86, 86, 86);
     color: aliceblue;
     border-radius: 1rem;
-    margin-top: -2rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-} */
+}
 
-/* .agregar {
+.comprar {
     border: 0;
     background-color: aliceblue;
     padding: .5rem;
@@ -146,12 +137,13 @@ main {
     border: 2px solid aliceblue;
 }
 
-.agregar:hover {
+.comprar:hover {
     background-color: rgb(0, 0, 0);
-    color: aliceblue; */
+    color: aliceblue;
+}
 
 
-footer{
+footer {
     background-color: rgb(0, 0, 0);
     height: 100px;
     text-align: center;

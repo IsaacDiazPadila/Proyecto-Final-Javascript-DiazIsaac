@@ -1,68 +1,117 @@
 
-//Inicio del simulador//
-//Preguntas y respuestas inicia//
-// let nombre = prompt("\n👋¡Bienvenido!😀  \n Ingresa tu nombre👇")
-// console.log (nombre)
+//Array de productos// 
+
+const productos = [
+    {
+        id: "moto-0km-01",
+        titulo: "Moto-0km-Bajaj",
+        imagen: "./img/rouser ns 125 negra.jpg.jpg",
+        categoria: {
+            nombre: "0Km",
+            id: "0km"
+        },
+        precio: 2400000
+    },
+
+    {
+        id: "moto-usada-01",
+        titulo: "Moto-Usada-Suzuki",
+        imagen: "./img/suzuki-gn-125.jpf.jpg",
+        categoria: {
+            nombre: "Usados",
+            id: "usados"
+        },
+        precio: 1700000
+    },
+
+    {
+        id: "moto-0km-02",
+        titulo: "Moto-0km-Boxer",
+        imagen: "./img/boxer-150.jpg.jpg",
+        categoria: {
+            nombre: "0Km",
+            id: "0km"
+        },
+        precio: 1900000
+    },
+
+    {
+        id: "moto-0km-04",
+        titulo: "Moto-0km-Hero",
+        imagen: "./img/Hero-XPulse-200.jpg.webp",
+        categoria: {
+            nombre: "0Km",
+            id: "0km"
+        },
+        precio: 3400000
+    },
+
+    {
+        id: "moto-0km-05",
+        titulo: "Moto-0km-Vogue",
+        imagen: "./img/vogue-300-ds.jpg.jpg",
+        categoria: {
+            nombre: "0Km",
+            id: "0km"
+        },
+        precio: 5500000
+    },
 
 
-// let intro = alert("\n🔍¿Que tanto sabes de autos?🔎  \nSelecciona los numeros con las respuestas correctas ✔ \n¡Vamos averiguarlo!📝")
+    {
+        id: "moto-0km-06",
+        titulo: "Moto-0km-Vogue-Rally",
+        imagen: "./img/Vogue-Rally-AZUL.jpg.jpg",
+        categoria: {
+            nombre: "0Km",
+            id: "0km"
+        },
+        precio: 5800000
+    },
 
-//     let pregunta1 = prompt("¿Cual es el auto preferido de los japoneses?🕵️‍♀️ \n1. Nissan Skyline GTR \n2. Toyota Corolla \n3. Renault Clio Mio")
-//         if (pregunta1 == 1){
-//             alert ("🎉 ¡Felicitaciones tu respuesta es correcta! 👏");
-//         } else 
-//         {alert ("😢 Lo siento tu respuesta es incorrecta. \nEstuviste asi de cerca 🤏")
-//         }
+    {
+        id: "moto-usada-02",
+        titulo: "Moto-Usada-Himalayan",
+        imagen: "./img/HIMALAYAN.jpg.jpg",
+        categoria: {
+            nombre: "Usados",
+            id: "usados"
+        },
+        precio: 5300000
+    },
 
-//     let pregunta2 = prompt("🌍¿Como se llama el japones mas reconocido en el mundo del tunners?🧐 \n1. Jakie Chan \n2. ChamchumChim \n3. Akira Nakai")
-//         if (pregunta2 == 3){
-//             alert ("😲 ¡Felicitaciones tu respuesta es correcta! 👌");
-//         } else 
-//             {alert ("❌ Lo siento tu respuesta es incorrecta 🥺")
-//         }
-
-//     let pregunta3 = prompt("🚗 ¿Cuantos cilindros tiene el motor del Toyota Supra mk4? ⚙ \n 5 \n 6 \n 20")
-//         if (pregunta3 == 6){
-//             alert ("🙌 Felicitaciones tu respuesta es correcta 🏆");
-//         } else 
-//             {alert ("👉 Lo siento tu respuesta es incorrecta 👎 \nGracias por intentarlo 🙋‍♂️");
-//         }
-
-
-// //Simulador de facturacion inicia//
-
-let totalCompra = [];
-
-let agregaProductoSeleccionado;
-let costoProductoSeleccionado;
-
-//Ciclo de registro de productos y costos//
-do {
-    agregaProductoSeleccionado = prompt("Para hacer la factura al cliente ingrese el Producto.⚙  \nPara salir, escribe \n\"Salir\" 👈");
-
-    if (agregaProductoSeleccionado.toLowerCase() !== "salir") {
-
-        do {
-            costoProductoSeleccionado = parseInt(prompt("Ingresar el costo del producto.💵"));
-        } while (isNaN(costoProductoSeleccionado) || costoProductoSeleccionado === "")
-
-        let productoSeleccionado = {
-            agrega: agregaProductoSeleccionado,
-            costo: costoProductoSeleccionado
-        }
-        totalCompra.push(productoSeleccionado);
+    {
+        id: "moto-usada-03",
+        titulo: "Moto-Usada-Interceptor",
+        imagen: "./img/Interceptor.jpg.jpg",
+        categoria: {
+            nombre: "Usados",
+            id: "usados"
+        },
+        precio: 6500000
     }
+];
 
-} while (agregaProductoSeleccionado.toLowerCase() !== "salir");
+const contenedorProductos = document.querySelector("#contenedor-productos");
 
-console.log(totalCompra)
+// funcion que carga los productos en el main //
+function cargarProductos() {
+    productos.forEach(producto => {
+        const div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = ` 
+        <img src="${producto.imagen}" class="producto-imagen" alt="${producto.titulo}">
+        <div class="producto-detalles">
+        <h4 class="producto-titulo">${producto.titulo}</h4>
+        <p class="producto-precio">Precio: $ ${producto.precio}</p>
+        <button href="#" class="producto-comprar" id="${producto.id}">Comprar</button>
+        </div> `;
 
-//Funcion que suma el total de los productos//
-function sumaTotaldeCompra() {
-    let total = totalCompra.reduce((acumulador, compra) => acumulador + compra.costo, 0);
-    return total;
-}
+        contenedorProductos.append(div)
+        
+    })
+} 
 
-console.log("Ticket de compra con el Total de costos", sumaTotaldeCompra());
+cargarProductos();
 
-//Simulador de Facturacion Fin //
+
