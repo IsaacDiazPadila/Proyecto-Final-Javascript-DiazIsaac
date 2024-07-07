@@ -32,7 +32,7 @@
     {
         "id": "Moto-03",
         "titulo": "Hero Xpulse 200",
-        "imagen": "./img/Hero-Xpulse-200.jpg",
+        "imagen": "./img/41425_medium.jpg",
         "categoria": {
             "nombre": "0 km",
             "id": "Moto 0Km"
@@ -82,7 +82,7 @@
     {
         "id": "Accesorio-04",
         "titulo": "Casco Helmet",
-        "imagen": "./img/Leatt-helmet-MOTO-3-5-Ghost-Right-ISO-1022010170.jpg",
+        "imagen": "./img/Leatt-Helmet-MOTO-3-5-Ghost-Right-1022010170.jpg",
         "categoria": {
             "nombre": "Accesorio",
             "id": "camisetas"
