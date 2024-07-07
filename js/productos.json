@@ -1,0 +1,162 @@
+[
+    {
+        "id": "Moto-01",
+        "titulo": "Bajaj boxer 150",
+        "imagen": "./img/boxer-150.jpg.jpg",
+        "categoria": {
+            "nombre": "0 km",
+            "id": "Moto 0Km"
+        },
+        "precio": 2185000
+    },
+    {
+        "id": "Moto-02",
+        "titulo": "Bajaj Rouser 125",
+        "imagen": "./img/rouserns125negra.jpg.jpg",
+        "categoria": {
+            "nombre": "0 km",
+            "id": "Moto 0Km"
+        },
+        "precio": 24680000
+    },
+    {
+        "id": "usados-01",
+        "titulo": "RF Himalayan 400",
+        "imagen": "./img/HIMALAYAN.jpg.jpg",
+        "categoria": {
+            "nombre": "Usados",
+            "id": "abrigos"
+        },
+        "precio": 4600000
+    },
+    {
+        "id": "Moto-03",
+        "titulo": "Hero Xpulse 200",
+        "imagen": "./img/Hero-Xpulse-200.jpg.webp",
+        "categoria": {
+            "nombre": "0 km",
+            "id": "Moto 0Km"
+        },
+        "precio": 3600000
+    },
+    {
+        "id": "usado-02",
+        "titulo": "Suzuki gn 125",
+        "imagen": "./img/suzuki-gn-125.jpf.jpg",
+        "categoria": {
+            "nombre": "Usados",
+            "id": "abrigos"
+        },
+        "precio": 2000000
+    },
+    {
+        "id": "Moto-04",
+        "titulo": "Voge 300 DS",
+        "imagen": "./img/vogue-300-ds.jpg.jpg",
+        "categoria": {
+            "nombre": "0 km",
+            "id": "Moto 0Km"
+        },
+        "precio": 5800000
+    },
+    {
+        "id": "Moto-05",
+        "titulo": "Voge 300 Rally",
+        "imagen": "./img/Vogue-Rally-AZUL.jpg.jpg",
+        "categoria": {
+            "nombre": "0km",
+            "id": "Moto 0Km"
+        },
+        "precio": 6200000
+    },
+    {
+        "id": "usado-04",
+        "titulo": "RF Interceptor 650",
+        "imagen": "./img/Interceptor.jpg.jpg",
+        "categoria": {
+            "nombre": "Usados",
+            "id": "abrigos"
+        },
+        "precio": 6500000
+    },
+    {
+        "id": "Accesorio-04",
+        "titulo": "Casco Helmet",
+        "imagen": "./img/Leatt-helmet-MOTO-3-5-Ghost-Right-ISO-1022010170.png",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 284200
+    },
+    {
+        "id": "Accesorio-05",
+        "titulo": "Antiparras",
+        "imagen": "./img/8.jpg.webp",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 80000
+    },
+    {
+        "id": "Accesorio-06",
+        "titulo": "Campera con protecciones",
+        "imagen": "./img/4.jpg.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 160000
+    },
+    {
+        "id": "Accesorio-07",
+        "titulo": "Botas con protecciones",
+        "imagen": "./img/5.jpg.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 200000
+    },
+    {
+        "id": "Accesorio-08",
+        "titulo": "Guantes",
+        "imagen": "./img/6.jpg.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 62000
+    },
+    {
+        "id": "Accesorio-09",
+        "titulo": "Intercomunicador",
+        "imagen": "./img/interc.jpg.webp",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 100000
+    },
+    {
+        "id": "Accesorio-10",
+        "titulo": "Candado de Disco",
+        "imagen": "./img/EATE7SWEBFHGJJEDPOZATOZOTA.avif",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "Accesorio-11",
+        "titulo": "Aceite 20w50 Castrol Mineral",
+        "imagen": "./img/aceite.jpg.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "camisetas"
+        },
+        "precio": 8000
+    }
+]
